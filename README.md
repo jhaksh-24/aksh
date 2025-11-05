@@ -1,4 +1,4 @@
-# AKSH Shell
+# aksh (Shell version 1.0.0)
 
 A custom shell implementation written in Go that provides basic command-line functionality with command history support.
 
