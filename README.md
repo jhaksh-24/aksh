@@ -4,7 +4,7 @@ A custom shell implementation written in Go that provides basic command-line fun
 
 ## Features
 
-- **Built-in Commands**: `exit`, `echo`, `type`, `cd`
+- **Built-in Commands**: `exit`, `echo`, `type`, `cd`, `history`
 - **External Command Execution**: Run any executable found in your PATH
 - **Command History**: Persistent history stored in `~/.aksh_history`
 - **Path Resolution**: Automatic binary lookup in system PATH

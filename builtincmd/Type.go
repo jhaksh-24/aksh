@@ -12,7 +12,7 @@ func Type (parts []string) {
 		return
 	}
 	
-	builtins := []string{"exit", "echo", "type", "cd"}
+	builtins := []string{"exit", "echo", "type", "cd", "history"}
 
 	for _, val := range builtins {
 		if val == parts[1] {
