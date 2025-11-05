@@ -19,8 +19,8 @@ A custom shell implementation written in Go that provides basic command-line fun
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/jhaksh-24/shell.git
-cd shell
+git clone https://github.com/jhaksh-24/aksh.git
+cd aksh
 ```
 
 ### 2. Build the Shell
@@ -106,7 +106,7 @@ All executed commands are automatically saved to `~/.aksh_history` and persist a
 ## Project Structure
 
 ```
-shell/
+aksh/
 ├── builtincmd/
 │   ├── ChangeDirectory.go    # cd command implementation
 │   ├── Echo.go                # echo command implementation
@@ -160,7 +160,7 @@ rm ~/.aksh_history
 
 ```bash
 cd ..
-rm -rf shell/
+rm -rf aksh/
 ```
 
 ## Troubleshooting
@@ -208,7 +208,7 @@ rm ~/.aksh_history
 go build -o aksh
 ```
 
-### Running Tests
+### Running Tests (Will be added soon)
 
 ```bash
 go test ./...
